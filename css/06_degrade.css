@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(0, 121, 111);
+    /*background-color: red; */
+}
+
+.carre {
+    /* une couleur en dégradé pour la classe .rectangle, un dégradé avec la 1ère couleurs et finit avec la 2nde couleur, par défaut, de haut en bas. */
+    background: linear-gradient(to right, #40a497, #6840a4); 
+    /* largeur */
+    width: 45em;
+    /* hauteur */
+    height: 45em;
+    /* pas de marge (valeur) en haut et en bas et la valeur auto laisse le navigateur centrer l'élément */
+    margin: 0 auto;
+}
+.cercle {
+    background: linear-gradient(to right, #40a497, #6840a4); 
+    /* largeur */
+    width: 45em;
+    /* hauteur */
+    height: 45em;
+    /* pas de marge (valeur) en haut et en bas et la valeur auto laisse le navigateur centrer l'élément */
+    margin: 0 auto;
+    /*la propriété border-radius: permet d'arrondir plus ou moins les angles */
+    border-radius: 50%;   
+}
