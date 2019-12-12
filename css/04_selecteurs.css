@@ -1,0 +1,92 @@
+/* feuille de style pour la page sélecteur */
+body {
+    background-color: papayawhip;}
+    /*taille de la police ou de la typo ou de la font (et pas de l'écriture)
+
+/* des classes pour la page  */
+
+
+/* des propriétés pour la section et pour les différents paragraphes de la section  */
+section {
+    background-color: lightgray;
+    width: 50%;
+    padding: 5px;
+    border:1px solid red;
+    margin-bottom: 10px;
+}
+section p {
+        /* tous les P à l'intérieur de la balise SECTION ont une couleur  */
+        color: olive;
+    }
+    section p:first-child {
+        /* le premier P de chaque section sera darkblue et en gras ; premier enfant d'un élément  */
+        color: rgb(14, 34, 90);
+        font-weight: bolder;
+    }
+    section p:last-child {
+        /* le dernier p de chaque section aura un fond orange ; dernier enfant d'un élément */
+        background-color: orange;
+    }
+
+    section p:nth-child(3) {
+        /* le 3ème p de chaque section sera en lajuscule ; le énième d'un élément */
+        text-transform: uppercase;
+    }
+
+    section p:nth-child(even) {
+        /* tous les p pair */
+        background-color: white;
+    }
+
+    section p:nth-child(odd) {
+         /* tous les p impair */
+        background-color: lightskyblue;
+    }
+
+    section p:nth-child(5), section p:nth-child(9) {
+    /* le 5ème et le 9ème p de chaque section auront la 1ère lettre du mot  en majuscule ; le énième d'un élément */
+    text-transform: capitalize;
+    height: 50px;
+    }
+
+  /* des classses pour la page */
+
+.zone1,  .zone2 {
+    /*hauteur du bloc */
+    background-color: peru;
+    height: 100px;
+
+}
+
+
+.zone1 {
+    background-color: powderblue;
+    /* hauteur du bloc */
+
+}
+.zone2 {
+    background-color: rgb(199, 37, 72);
+    /* hauteur du bloc */
+
+}
+/* des styles pour des ID */
+#zone3 {
+    /* ID donc avant son nom je mets # */
+    background-color: royalblue;
+    color: whitesmoke;
+}
+
+
+#zone3:before {
+    /* on rajoute du contenu (content) après L'ID zone */
+    content: " rajouté avant la zone 3";
+}
+
+#zone3::after {
+    /* on rajoute du contenu (content) après L'ID zone */
+    content: " rajouté après la zone 3";
+
+}
+
+
+
