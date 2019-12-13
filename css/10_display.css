@@ -5,6 +5,12 @@ body {
     background-color: goldenrod;
 }
 
+h1, h3, div, p {
+ text-align: center;
+ background-color: cornsilk;
+ text-transform: uppercase; 
+}
+
 .encadre {
     border: 1px solid black;
     padding: 2px;

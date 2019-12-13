@@ -28,19 +28,55 @@
         text-align: center;
         padding-top: 10px ;
     }
+    /* les styles pour la navigationdans l'élément nav */
 
     nav {
         height: 60px;
-        background-color: lightsalmon;
+        background-color: #333333;
         padding-left: 40px;
         /* paddding-top: 5px */   
     }
+
+    nav ul {
+        /* pour être certain de ne pas avoir de puces dans cette ul */
+        list-style-type: none;
+        background-color: lightblue;
+    }
+    /*  pour ponter les li qui sont dans la balise nav */
+    nav li {
+        display: inline;
+
+    }
+     nav li a {
+         color:white;
+         background-color: orange;
+         text-align: center;
+         padding: 2px;
+         text-decoration: none;
+     }
+     nav li a:link {
+         color: tomato;
+     }
 
     section {
         border: 20px solid lightgrey;
         height: 400px;
         text-align: center;
     }
+    nav li a:hover {
+        color: orange;
+        background-color: white;
+    }
+    /* le lien ou clic de la souris, selectionné  */
+    nav li a:active {
+        background-color: royalblue;
+    }
+    /*  le lien visité */
+    nav li a:visited {
+        background-color: orchid;
+    }
+
+    /* les styles pour la section */
     
     
     
@@ -60,10 +96,14 @@
             
                 <li><a href="08_zoning.html">Accueil</a></li>
                 <li><a href="exos/legamin.html" target="blank">le gamin</a></li>
-                <li><a href="">page3</a</li>
-                </ul>
+                <li><a href="exos/01_bis_images.html">page avec des images</a></li>
+                <li><a href="exos/01_cubitus.html">le lien vers 01_cubitus.html</a><li>
+                <li><a href="exos/exo_01.html">le lien vers 01_.html</a><li>
+                <li><a href="exos/exo_03.html">le lien vers exo_03.html</a></li>
+                <li><a href="exos/liste.html">le lien vers liste.html</a></li>
+               
 
-            </ul>
+            </ul>   
         </nav>
         <!-- la section pour le contenu principal -->
         <section>
