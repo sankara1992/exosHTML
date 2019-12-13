@@ -1,0 +1,18 @@
+/* feuille de style pour la page des images */
+
+body{
+    background-color:#fa877f;
+}
+h2{
+    color: #472B62;
+}
+h3{
+    color: #7C0A02;
+}
+img{
+    border: 10px
+    solid black;
+}
+.block {
+    display: block;
+}
