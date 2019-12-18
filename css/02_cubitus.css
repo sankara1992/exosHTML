@@ -1,0 +1,32 @@
+/* feuille de style pour le cubitus 2 */
+body {
+    background-color: violet;
+}
+
+.c1, .c2, .c3 {
+    background-color: green;
+     width: 150px;
+     height: 150px;
+     margin: 5px;
+ 
+     float: left;
+ 
+ border: 10px solid white;
+ border-radius: 15%;
+   
+}
+.c1 {
+    background-color: red;
+    border-radius: 20px 40px 20px 40px;
+}
+.c2 {
+    background-color: khaki;
+    border
+}
+.c3 {
+    background-color: lightblue;
+}
+
+.clear {
+    clear: both;
+}
