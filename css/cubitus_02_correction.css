@@ -1,0 +1,34 @@
+
+body {
+    background-color: lawngreen;
+}
+
+.clear {
+    clear: both;
+}
+.C1, .C2, .C3, .C4, .C5, .empty {
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    float: left;
+    margin: 3px;
+}
+.C1{
+    background-color: blue;
+    border-radius: 10% 20% 30% 40%;
+}
+.C2{
+    background-color: turquoise;
+    border-radius: ;
+}
+.C3{
+    background-color: orange;
+    border-radius: 50%;
+}
+.C4{
+    background-color: violet;
+}
+.C5{
+    background-color: green;
+}
